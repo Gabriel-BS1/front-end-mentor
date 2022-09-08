@@ -1,6 +1,5 @@
         body {
           background-color: hsl(212, 45%, 89%);
-          box-sizing: border-box;
           margin:  auto auto;
         }
 
@@ -35,6 +34,7 @@
           border-radius: 14px;
           padding: 15px;
           width: 205px;
+          box-sizing: border-box;
           margin-top: 20px;
           margin-left: auto;
           text-align: center;
