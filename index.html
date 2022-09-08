@@ -5,73 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <meta name="keywords" content="qrcode, code, qr, static">
   <meta name="description" content="qr code web site">
-
+  <link rel="preload" href="css/style.css" as="style"  onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link media="all" defer href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.webp">
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-        body {
-          background-color: hsl(212, 45%, 89%);
-          box-sizing: border-box;
-          margin:  auto auto;
-        }
-
-        .attribution {
-          width: 100%;
-          margin-top: 20px;
-          text-align: center;
-        }
-
-        h3, p {
-          font-family: 'Open Sans', sans-serif;
-        }
-
-        h3 {
-          hsl(218, 44%, 22%);
-          font-weight: 700;
-          font-size: 15px;
-        }
-
-        p {
-          font-size: 11px;
-          color: hsl(220, 15%, 55%);
-        }
-
-        img {
-          width: 100%;
-          border-radius: 14px;
-        }
-
-        .box-content {
-          background-color: hsl(0, 0%, 100%);
-          border-radius: 14px;
-          padding: 15px;
-          width: 205px;
-          margin-top: 20px;
-          margin-left: auto;
-          text-align: center;
-          margin-right: auto;
-          height: auto;
-        }
-  </style>
 </head>
 <body>
   <div class="box-content">
-    <img src="images/image-qr-code.png">
+    <img  width="205" height="205" src="images/image-qr-code.webp" alt="Qrcode of the Frontend Mentor website">
     <h3>Improve your front-end skills by building projects</h3>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <p role="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
 
-
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/bgabrielvinicius">Gabriel Vinicius</a>.
+    Challenge by <a role="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a role="link" href="https://github.com/bgabrielvinicius">Gabriel Vinicius</a>.
   </div>
 </body>
 </html>
